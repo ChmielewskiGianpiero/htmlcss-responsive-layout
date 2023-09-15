@@ -1,6 +1,6 @@
 /* header responsive */
 
-@media (max-width: 576px) { 
+@media (max-width: 575.98px) { 
     .container{
         width: 100%;
  }
@@ -15,3 +15,23 @@
  }
 
 }
+
+@media (max-width: 767.98px) {
+    
+    .container{
+        width: 100%;
+ }
+
+    .navbar-list {
+        display: none;
+    }
+
+    .hamburger{
+        display: flex;
+        align-items: center;
+ }
+ 
+}
+
+/* hero responsive */
+
