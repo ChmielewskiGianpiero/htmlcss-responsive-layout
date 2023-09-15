@@ -20,12 +20,13 @@ img {
     width: 100%;
 }
 
-
 a {
     text-decoration: none;
     color: currentColor;
     display: inline-block;
 }
+
+
 /* palette colori */
 
 :root {
@@ -37,6 +38,8 @@ a {
     --light:#FFFFFF;
 
 }
+
+
 /* layouts */
 
 .container {
@@ -99,6 +102,8 @@ a {
 /* header */
 .page-header {
     background-color: var(--blue);
+    padding: 20px;
+    color: white;
 }
 
 .navbar-list {
@@ -112,17 +117,17 @@ a {
 .debug .container,
  .debug .container-medium,
  .debug .container-small  {
-    border: 1px solid var(--yellow);
-    padding: 10px;
+    /* border: 2px solid red;
+    padding: 10px; */
 }
 
 .debug .row {
-    border: 1px solid var(--purple);
-    padding: 10px;
+    /* border: 2px solid black;
+    padding: 10px; */
 }
 .debug [class^="col"] {
-    border: 1px solid orange;
-    padding: 10px;
+    /* border: 2px solid orange;
+    padding: 10px; */
 }
 
 
