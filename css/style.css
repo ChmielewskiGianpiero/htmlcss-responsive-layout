@@ -116,9 +116,52 @@ a {
     display: none;
 }
 
+
+/* hero */
+
+.hero{
+    padding-top: 50px;
+}
+
+.hero [class^="col-"] {
+    padding: 20px;
+    background-color: var(--light-blue);
+    border-radius: 20px;
+}
+
+.hero .row{
+    gap: 23px;
+    flex-wrap: nowrap;
+    padding-bottom: 23px;
+}
+
+.card-list{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+    line-height: 25px;
+}
+
+.icon-card{
+    font-size: 63px;
+}
+
+.title-card{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.title-card, .icon-card{
+    color: var(--blue);
+}
+
+
+
+
 /* debug */
 
-.debug .container,
+/* .debug .container, */
  .debug .container-medium,
  .debug .container-small  {
     /* border: 2px solid red;
@@ -129,9 +172,9 @@ a {
     /* border: 2px solid black;
     padding: 10px; */
 }
-.debug [class^="col"] {
-    /* border: 2px solid orange;
-    padding: 10px; */
+.debug [class^="col-"] {
+    /* border: 2px solid orange; */
+    /* padding: 10px; */
 }
 
 
