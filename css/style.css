@@ -112,6 +112,10 @@ a {
     align-items: center;
 }
 
+.hamburger{
+    display: none;
+}
+
 /* debug */
 
 .debug .container,

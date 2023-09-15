@@ -1,0 +1,17 @@
+/* header responsive */
+
+@media (max-width: 576px) { 
+    .container{
+        width: 100%;
+ }
+
+    .navbar-list {
+        display: none;
+    }
+
+    .hamburger{
+        display: flex;
+        align-items: center;
+ }
+
+}
