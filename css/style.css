@@ -87,6 +87,11 @@ a {
     align-items: center;
 }
 
+.direction-row {
+    display: flex;
+    flex-direction: row;
+}
+
 
 /* component classes */
 
@@ -124,7 +129,7 @@ a {
 }
 
 .hero [class^="col-"] {
-    padding: 20px;
+    /* padding: 20px; */
     background-color: var(--light-blue);
     border-radius: 20px;
 }
@@ -135,13 +140,40 @@ a {
     padding-bottom: 23px;
 }
 
+.hero .col-6{
+    text-align: start;
+}
+
+.hero .card-list, .hero .img-phone{
+    padding: 40px;
+}
+
+.hero .img-phone{
+    padding-right: 32px;
+}
+
+.col-6 .button{
+    max-width: 200px;
+    background-color: var(--blue);
+    color: var(--light);
+}
+
+.col-6 .img-phone{
+    margin-bottom: -45px;
+}
+
+.col-6 p{
+    font-size: 17px;
+}
+
 .card-list{
     display: flex;
     flex-direction: column;
     text-align: center;
     gap: 30px;
-    line-height: 25px;
+    line-height: 30px;
 }
+
 
 .icon-card{
     font-size: 63px;
