@@ -35,3 +35,26 @@
 
 /* hero responsive */
 
+@media (max-width: 575.98px) { 
+    .container{
+        width: 90%;
+ }
+    .hero .row, .hero .direction-row{
+        display: flex;
+        flex-direction:column;
+    }
+
+    .hero .card-list{
+        padding: 25px 25px 0px 25px;
+    }
+
+    .hero .img-phone{
+        margin-bottom: -45px;
+    }
+
+    .hero .col-4{
+        padding: 20px;
+    }
+}
+
+
