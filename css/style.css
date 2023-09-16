@@ -161,7 +161,7 @@ a {
     align-self: end;
 }
 
-.col-6 p{
+.col-6 .caption-figure{
     font-size: 17px;
 }
 
@@ -188,24 +188,43 @@ a {
 }
 
 
+/* planning-section */
+
+.planning-section{
+    background-color: var(--purple);
+}
+
+.planning-figure, .planning-caption{
+    padding: 100px 30px 30px 20px;
+    color: var(--light);
+}
+
+.planning-caption{
+    padding: 50px 30px 10px 20px;
+}
+
+.planning-section-title{
+    padding-bottom: 40px;
+}
+
 
 
 /* debug */
 
-/* .debug .container, */
- .debug .container-medium,
- .debug .container-small  {
-    /* border: 2px solid red;
-    padding: 10px; */
+.debug .container, 
+.debug .container-medium,
+.debug .container-small  {
+    border: 2px solid red;
+    padding: 10px;
 }
 
 .debug .row {
-    /* border: 2px solid black;
-    padding: 10px; */
+    border: 2px solid black;
+    padding: 10px;
 }
 .debug [class^="col-"] {
-    /* border: 2px solid orange; */
-    /* padding: 10px; */
+    border: 2px solid orange; 
+    padding: 10px;
 }
 
 
