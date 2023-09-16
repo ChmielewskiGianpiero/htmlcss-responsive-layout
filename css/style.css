@@ -92,6 +92,23 @@ a {
     flex-direction: row;
 }
 
+.justify-end {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.bg-light{
+    background-color: var(--light);
+    border-radius: 55px;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 380px;
+}
+
 
 /* component classes */
 
@@ -149,7 +166,7 @@ a {
     padding: 40px;
 }
 
-.col-6 .button{
+.card-list .button{
     max-width: 200px;
     background-color: var(--blue);
     color: var(--light);
@@ -194,6 +211,11 @@ a {
     background-color: var(--purple);
 }
 
+.planning-section .row{
+    gap: 40px;
+    flex-wrap: nowrap;
+}
+
 .planning-figure, .planning-caption{
     padding: 100px 30px 30px 20px;
     color: var(--light);
@@ -203,15 +225,45 @@ a {
     padding: 50px 30px 10px 20px;
 }
 
-.planning-section-title{
+.planning-caption-title{
     padding-bottom: 40px;
+}
+
+.developement-figure{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.developement-caption{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.developement-caption-title{
+    font-size: 20px;
+}
+
+.developement-caption-text{
+    font-size: 15px;
+    font-style: italic;
+}
+
+
+.developement-caption .button-circle {
+    background-color: var(--purple);
+    color: black;
+    border-radius: 25px;
+    width: 50px;
+    line-height: 50px;
 }
 
 
 
 /* debug */
 
-.debug .container, 
+/* .debug .container, 
 .debug .container-medium,
 .debug .container-small  {
     border: 2px solid red;
@@ -225,7 +277,7 @@ a {
 .debug [class^="col-"] {
     border: 2px solid orange; 
     padding: 10px;
-}
+} */
 
 
 
