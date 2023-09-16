@@ -149,10 +149,6 @@ a {
     padding: 40px;
 }
 
-.hero .img-phone{
-    padding-right: 32px;
-}
-
 .col-6 .button{
     max-width: 200px;
     background-color: var(--blue);
@@ -161,6 +157,8 @@ a {
 
 .col-6 .img-phone{
     margin-bottom: -45px;
+    padding-right: 32px;
+    align-self: end;
 }
 
 .col-6 p{

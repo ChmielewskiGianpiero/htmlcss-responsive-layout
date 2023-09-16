@@ -79,15 +79,3 @@
         padding: 40px 0px 0px 0px;
     }
 }
-
-
-@media (max-width: 1920px) {
-    
-    .hero .img-phone{
-        margin-bottom: -5px;
-        padding: 40px 0px 0px 0px;
-    }
-}
-
-
-
