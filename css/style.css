@@ -328,6 +328,13 @@ a {
     background-color: var(--purple);
 }
 
+.card-section .row{
+    gap: 35px;
+    flex-wrap: nowrap;
+    padding-bottom: 35px;
+}
+
+
 .card-section h1{
     color: var(--light);
     text-align: center;
@@ -358,9 +365,8 @@ a {
 
 .number-card{
     font-size: 76px;
-    font-weight: bold;
     color: var(--purple);
-    font-family: 'Courier New', Courier, monospace;
+    font-family:'Fjalla One', sans-serif;
     padding-bottom: 15px;
 }
 
