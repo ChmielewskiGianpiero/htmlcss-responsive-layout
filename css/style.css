@@ -142,6 +142,7 @@ a {
 
 .hero .col-6{
     text-align: start;
+    display: flex;
 }
 
 .hero .card-list, .hero .img-phone{
