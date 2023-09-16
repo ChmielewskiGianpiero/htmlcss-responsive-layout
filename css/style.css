@@ -262,23 +262,23 @@ a {
 /* testimonials-section */
 
 .testimonials-section .row, 
-.testimonials-section .testimonials-section-info {
+.testimonials-section .testimonials-section-header {
     flex-direction: column;
 }
 
-.testimonials-section-info{
+.testimonials-section-header{
     text-align: center;
     gap: 10px;
     display: flex;
     padding-top: 60px;
 }
 
-.testimonials-section-info h2{
+.testimonials-section-header h2{
     font-size: 20px;
     font-weight: 400;
 }
 
-.testimonials-section-info h1{
+.testimonials-section-header h1{
     font-size: 30px;
     color: var(--purple);
 }
