@@ -92,6 +92,11 @@ a {
     flex-direction: row;
 }
 
+.direction-column{
+    display: flex;
+    flex-direction: column;
+}
+
 .justify-end {
     display: flex;
     flex-direction: column;
@@ -116,7 +121,6 @@ a {
     color: black;
     line-height: 40px;
     text-align: center;
-    background-color: white;
     border-radius: 20px;
     padding: 0 18px;
 }
@@ -132,6 +136,10 @@ a {
     display: flex;
     gap: 22px;
     align-items: center;
+}
+
+.navbar-list .button{
+    background-color: var(--light);
 }
 
 .hamburger{
@@ -268,6 +276,7 @@ a {
 
 .testimonials-section .row{
     gap: 50px;
+    padding-bottom: 100px;
 }
 
 
@@ -312,6 +321,50 @@ a {
     gap: 20px;
     color: var(--light);
 }
+
+/* card-section */
+
+.card-section{
+    background-color: var(--purple);
+}
+
+.card-section h1{
+    color: var(--light);
+    text-align: center;
+    font-size: 35px;
+    padding: 60px 0px;
+}
+
+.card-section-list{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    line-height: 30px;
+    background-color: var(--light);
+    padding: 60px 15px 20px 25px;
+    border-radius: 20px;
+}
+
+.card-section-list h2{
+    color: var(--purple);
+}
+
+.card-section-list .button{
+    background-color: var(--purple);
+    color: var(--light);
+    width: 145px;
+}
+
+
+.number-card{
+    font-size: 76px;
+    font-weight: bold;
+    color: var(--purple);
+    font-family: 'Courier New', Courier, monospace;
+    padding-bottom: 15px;
+}
+
+
 
 
 
