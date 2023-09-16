@@ -146,7 +146,6 @@ a {
 }
 
 .hero [class^="col-"] {
-    /* padding: 20px; */
     background-color: var(--light-blue);
     border-radius: 20px;
 }
@@ -209,6 +208,7 @@ a {
 
 .planning-section{
     background-color: var(--purple);
+    padding-bottom: 70px;
 }
 
 .planning-section .row{
@@ -257,6 +257,30 @@ a {
     border-radius: 25px;
     width: 50px;
     line-height: 50px;
+}
+
+/* testimonials-section */
+
+.testimonials-section .row, 
+.testimonials-section .testimonials-section-info {
+    flex-direction: column;
+}
+
+.testimonials-section-info{
+    text-align: center;
+    gap: 10px;
+    display: flex;
+    padding-top: 60px;
+}
+
+.testimonials-section-info h2{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.testimonials-section-info h1{
+    font-size: 30px;
+    color: var(--purple);
 }
 
 
