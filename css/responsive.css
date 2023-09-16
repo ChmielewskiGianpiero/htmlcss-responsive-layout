@@ -79,3 +79,15 @@
         padding: 40px 0px 0px 0px;
     }
 }
+
+
+/* planning-section responsive */
+
+@media (max-width: 597.98px) { 
+    .container-small{
+        max-width: 329px;
+ }
+    .planning-section .row {
+        flex-direction: column;
+    }
+}
