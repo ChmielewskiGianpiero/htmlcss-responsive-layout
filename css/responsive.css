@@ -91,3 +91,24 @@
         flex-direction: column;
     }
 }
+
+@media (max-width: 767.98px) { 
+    .container-small{
+        max-width: 90%;
+ }
+    .planning-section .row {
+        flex-direction: column;
+    }
+
+    .planning-caption-title{
+        font-size: 40px;
+    }
+    
+    .planning-caption-text{
+        font-size: 13px;
+    }
+
+    .bg-light{
+        max-width: 100%;
+    }
+}
