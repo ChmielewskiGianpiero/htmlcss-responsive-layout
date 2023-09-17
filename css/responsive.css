@@ -114,7 +114,7 @@
 }
 
 
-/* testimonial-section */
+/* testimonial-section responsive*/
 
 @media (max-width: 597.98px) { 
     .container{
@@ -130,7 +130,25 @@
 }
 
 @media (max-width: 767.98px) { 
-    .testimonials{
-        gap: 35px;
+    .container{
+        max-width: 700px;
     }
+}
+
+
+/* card-section responsive */
+
+@media (max-width: 597.98px) { 
+    .container{
+        max-width: 329px;
+ }
+    
+    .card-section .row{
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 767.98px) { 
+   
 }
