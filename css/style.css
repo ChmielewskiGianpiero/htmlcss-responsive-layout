@@ -33,9 +33,11 @@ a {
     --blue:#0084FD;
     --light-blue:#B5DDFF;
     --purple:#9792E4;
+    --light-purple: #CFCEF2;
     --yellow:#FDC15F;
     --dark-grey:#333333;
     --light:#FFFFFF;
+    --dark:#000000;
 
 }
 
@@ -54,6 +56,11 @@ a {
 
 .container-small {
     max-width: 880px;
+    margin: 0 auto;
+}
+
+.container-extra-small{
+    max-width: 570px;
     margin: 0 auto;
 }
 
@@ -128,7 +135,6 @@ a {
 /* component classes */
 
 .button {
-    color: black;
     line-height: 40px;
     text-align: center;
     border-radius: 20px;
@@ -140,6 +146,10 @@ a {
     background-color: var(--blue);
     padding: 20px;
     color: white;
+}
+
+.page-header .button{
+    color: black;
 }
 
 .navbar-list {
@@ -327,8 +337,6 @@ a {
     max-width: 200px;
 }
 
-
-
 .testimonials blockquote{
     align-self: center;
     display: flex;
@@ -336,6 +344,7 @@ a {
     gap: 20px;
     color: var(--light);
 }
+
 
 /* card-section */
 
@@ -442,6 +451,61 @@ a {
 }
 
 
+/* footer */
+
+.free-section{
+    background-color: var(--purple);
+}
+
+.free-section .row{
+    align-content: center;
+}
+
+.free-section .col{
+    text-align: center;
+    color: var(--light);
+}
+
+.free-section .button{
+    color: var(--purple);
+    background-color: var(--light)
+}
+
+.started {
+    font-weight: 100;
+    color: var(--light-purple);
+    padding: 69px 0px 32px 0px;
+}
+
+.pricing {
+    font-size: 36px;
+}
+
+.free{
+    font-size: 67px;
+    color: var(--yellow);
+}
+
+.pricing, .free {
+    font-weight: bold;
+    padding-bottom: 38px;
+}
+
+.free-section-text{
+    max-width: 460px;
+}
+
+.free-section-text, .free-section-button{
+    padding-bottom: 27px;
+}
+
+.copyright{
+    padding-bottom: 69px;
+}
+
+.copyright a{
+    text-decoration: underline;
+}
 
 
 /* debug */
