@@ -511,8 +511,33 @@ a {
     padding-bottom: 69px;
 }
 
-.copyright a{
+.copyright a, .footer-page a{
     text-decoration: underline;
+}
+
+
+/* footer-page */
+
+.footer-page{
+    background-color: var(--dark-grey);
+    color: var(--light);
+    text-align: center;
+}
+
+.footer-page .row{
+    align-items: center;
+}
+
+.footer-page .col{
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+    padding: 40px 0px;
+    max-width: 460px;
+}
+
+.footer-page a{
+    color: var(--purple);
 }
 
 
