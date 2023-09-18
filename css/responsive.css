@@ -154,7 +154,7 @@
 }
 
 
-/* about-us-section */
+/* about-us-section responsive */
 
 @media (max-width: 597.98px) { 
     .container-medium{
@@ -183,3 +183,13 @@
     }
 }
 
+
+/* free-section responsive */
+
+
+@media (max-width: 597.98px) { 
+    .container-extra-small{
+        max-width: 420px;
+ }
+    
+}

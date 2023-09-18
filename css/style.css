@@ -466,7 +466,7 @@ a {
     color: var(--light);
 }
 
-.free-section .button{
+.free-section .button-started{
     color: var(--purple);
     background-color: var(--light)
 }
@@ -475,6 +475,13 @@ a {
     font-weight: 100;
     color: var(--light-purple);
     padding: 69px 0px 32px 0px;
+}
+
+.button-started{
+    line-height: 79px;
+    text-align: center;
+    border-radius: 40px;
+    width: 290px;
 }
 
 .pricing {
@@ -493,10 +500,11 @@ a {
 
 .free-section-text{
     max-width: 460px;
+    line-height: 30px;
 }
 
 .free-section-text, .free-section-button{
-    padding-bottom: 27px;
+    padding-bottom: 50px;
 }
 
 .copyright{
